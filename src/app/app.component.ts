@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { APP_CONSTANT } from './app.enum';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'case-study';
+  constants = APP_CONSTANT
 }

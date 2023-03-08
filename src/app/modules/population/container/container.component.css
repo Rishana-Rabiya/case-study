@@ -1,0 +1,23 @@
+.population-container{
+    position: relative;
+    top:4vh;
+}
+.menu{
+    background-color: #d2d4f3c4;
+    height:10vh;
+    padding-left:3%;
+    padding-top:4vh;
+
+}
+.graph-header{
+    color:#4d5366c7;
+    font-size: 20px;;
+    margin-top:2vh;
+}
+
+@media only screen and (max-width: 700px) {
+    div {
+        margin:0 auto;
+        text-align: center;
+    }
+}

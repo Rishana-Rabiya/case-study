@@ -1,0 +1,11 @@
+.tool{
+    opacity: 0;
+    background-color:black;
+    color:white;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+
+ 
+}

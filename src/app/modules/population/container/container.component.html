@@ -1,0 +1,9 @@
+<div class="population-container">
+<div class="menu">
+    <app-dropdown [label]='constants.CHOOSE_YEAR' [source]="years" [selected]="selectedYear" (selectChange)="onYearChange($event)"></app-dropdown>
+    <app-world-population [total]="totalPop" [year]="selectedYear.value"></app-world-population>
+    <div class="graph-header">{{constants.POPULAION_VS_DENSITY}}</div>
+    <app-scatterplot [data]="scatterData" ></app-scatterplot>
+    <div class="footer">{{constants.BUBBLE_SIZE}}</div>
+</div>
+</div>
